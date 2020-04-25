@@ -1,0 +1,8 @@
+.gistContainer {
+  position: absolute;
+  top: -7px;
+  overflow: scroll;
+  width: 500px;
+  max-height: 550px;
+  right: 295px;
+}

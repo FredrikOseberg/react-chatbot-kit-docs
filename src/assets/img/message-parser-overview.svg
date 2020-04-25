@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="92px" viewBox="0 0 88 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-11.000000, -100.000000)">
+            <g id="Group-10" transform="translate(11.000000, 100.000000)">
+                <g id="Group-9">
+                    <g id="Group-8">
+                        <path d="M27,33.5 L17.5,33.5" id="Line-6" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                        <g id="Group-7">
+                            <path d="M17.5,48.5 L17.5,33.5" id="Line-6" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <path d="M17.5,48.5 L27,48.5" id="Line-6" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <path d="M47,60.5 L47,54.5" id="Line-6-Copy" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <path d="M47,79.5 L47,73.5" id="Line-6-Copy" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <path d="M18,8.5 L26.5,8.5" id="Line-3" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <rect id="Rectangle" stroke="#386C7E" fill-rule="nonzero" x="27.5" y="2.5" width="42" height="12" rx="2"></rect>
+                            <text id="User-Input" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                                <tspan x="36" y="10">User Input</tspan>
+                            </text>
+                            <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="27.5" y="27.5" width="42" height="12" rx="2"></rect>
+                            <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="27.5" y="42.5" width="42" height="12" rx="2"></rect>
+                            <text id="MessageParser" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                                <tspan x="32" y="35">MessageParser</tspan>
+                            </text>
+                            <text id="parse(message)" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                                <tspan x="31" y="50">parse(message)</tspan>
+                            </text>
+                            <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="20.5" y="61.5" width="59" height="12" rx="2"></rect>
+                            <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="27.5" y="79.5" width="42" height="12" rx="2"></rect>
+                            <text id="Custom-parse-logic" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                                <tspan x="28" y="69">Custom parse logic</tspan>
+                            </text>
+                            <text id="Action" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                                <tspan x="40" y="87">Action</tspan>
+                            </text>
+                            <path d="M70,8 L87.5,8" id="Line-4" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <path d="M87.5,33.5 L87.5,8" id="Line-4" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                            <g id="Group-5" fill="#386C7E" fill-rule="nonzero">
+                                <g id="Group">
+                                    <circle id="Oval" cx="9" cy="9" r="9"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <path id="Line-5" d="M75.2222222,33.4 L87.5,33.4 L87.6,33.4 L87.6,33.6 L87.5,33.6 L75.2222222,33.6 L75.2222222,36 L70.2222222,33.5 L75.2222222,31 L75.2222222,33.4 Z" fill="#386C7E" fill-rule="nonzero"></path>
+                    </g>
+                    <path d="M87.5,33.5 L75,33.5" id="Line-4" stroke="#386C7E" stroke-linecap="square" fill-rule="nonzero"></path>
+                </g>
+                <g id="user-alt" transform="translate(5.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M3.86666667,4.53333333 C5.11805556,4.53333333 6.13333333,3.51805556 6.13333333,2.26666667 C6.13333333,1.01527778 5.11805556,0 3.86666667,0 C2.61527778,0 1.6,1.01527778 1.6,2.26666667 C1.6,3.51805556 2.61527778,4.53333333 3.86666667,4.53333333 Z M6,5.06666667 L5.1390625,5.06666667 C4.7921875,5.2225 4.40625,5.31111111 4,5.31111111 C3.59375,5.31111111 3.209375,5.2225 2.8609375,5.06666667 L2,5.06666667 C0.8953125,5.06666667 0,5.94208333 0,7.02222222 L0,7.26666667 C0,7.67152778 0.3359375,8 0.75,8 L7.25,8 C7.6640625,8 8,7.67152778 8,7.26666667 L8,7.02222222 C8,5.94208333 7.1046875,5.06666667 6,5.06666667 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

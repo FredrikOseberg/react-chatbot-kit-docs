@@ -1,0 +1,16 @@
+.informationBox {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.informationBoxLogo {
+  width: 30px;
+  height: 30px;
+  fill: #56af8c;
+}
