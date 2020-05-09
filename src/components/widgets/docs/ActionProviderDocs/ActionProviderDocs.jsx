@@ -3,8 +3,6 @@ import { FadeIn } from "react-anim-kit";
 import { ConditionallyRender } from "react-util-kit";
 import Gist from "react-gist";
 
-import GistContainer from "../../GistContainer/GistContainer";
-
 import { ReactComponent as ActionProviderOverview } from "../../../../assets/img/actionprovider-overview.svg";
 
 import styles from "./ActionProviderDocs.module.css";
@@ -14,12 +12,10 @@ const ActionProviderDocs = ({ gist, infoBox, setState }) => {
   useEffect(() => {
     setState((state) => ({
       ...state,
-      gist: "actionProvider",
       infoBox: "actionProvider",
     }));
   }, [setState]);
 
-  const showActionProviderGist = gist === "actionProvider";
   const showActionProviderInfoBox = infoBox === "actionProvider";
 
   return (
@@ -29,14 +25,9 @@ const ActionProviderDocs = ({ gist, infoBox, setState }) => {
       </FadeIn>
 
       <ConditionallyRender
-        ifTrue={showActionProviderGist}
-        show={<GistContainer gistId="9c994790c6dd76f3d1d9dffac59ef2bb" />}
-      />
-
-      <ConditionallyRender
         ifTrue={showActionProviderInfoBox}
         show={
-          <InformationBox>
+          <InformationBox setState={setState}>
             <p className={styles.infoBoxParagraph}>
               You have to write your own actionprovider. It will contain
               functions that you want to call in response to a user input. The

@@ -1,4 +1,5 @@
 .gradient {
-    background-image: linear-gradient(to bottom right, #67D596,  #33607C);
-    min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #67d596, #33607c);
+  min-height: 100vh;
+  padding: 40px 0 80px 0;
 }

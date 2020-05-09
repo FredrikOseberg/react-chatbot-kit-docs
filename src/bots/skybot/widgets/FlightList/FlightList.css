@@ -1,0 +1,89 @@
+.flight-list-header {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.flight-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flight-header-container {
+  display: flex;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.flight-id-header {
+  margin-left: 35px;
+  width: 60px;
+}
+
+.flight-airport-header {
+  width: 40px;
+}
+
+.flight-time-header {
+  width: 50px;
+}
+
+.flight-list-item {
+  display: flex;
+  font-size: 0.7rem;
+  align-items: center;
+  margin: 5px;
+  width: 100%;
+}
+
+.flight-list-icon-container {
+  height: 12.5px;
+  width: 12.5px;
+  padding: 5px;
+  background-color: #3de678;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flight-list-icon-container-arrival {
+  height: 12.5px;
+  width: 12.5px;
+  padding: 5px;
+  background-color: rgb(52, 202, 187);
+  border-radius: 50%;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flightlist-icon {
+  width: 12.5px;
+  fill: #fff;
+}
+
+.flight-id {
+  width: 60px;
+}
+
+.flight-list-error {
+  font-size: 0.9rem;
+  max-width: 184.5px;
+  color: #fff;
+  margin-left: auto;
+  background-color: rgb(40, 152, 236);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.flight-airport {
+  width: 40px;
+}
+
+.flight-time {
+  width: 50px;
+}

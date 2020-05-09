@@ -1,0 +1,83 @@
+.single-flight-container {
+  padding: 15px;
+  background-color: rgba(88, 163, 220, 0.2);
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.single-flight-header {
+  display: flex;
+  align-items: center;
+}
+
+.single-flight-icon-container {
+  height: 25px;
+  width: 25px;
+  background-color: #2898ec;
+  border-radius: 50%;
+  margin-right: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-flight-icon {
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+}
+
+.single-flight-heading {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.single-flight-airline-heading {
+  margin: 0 0 0 auto;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.single-flight-body {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.single-flight-transport-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-flight-transport-icon {
+  fill: #1d1d1d;
+  height: 15px;
+  width: 15px;
+}
+
+.single-flight-time-container {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-flight-time-container span {
+  margin: 2px 0;
+}
+
+.single-flight-status {
+  display: flex;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.single-flight-gate-header {
+  font-weight: bold;
+  margin: 0 20px 5px 0;
+}
+
+.single-flight-status-header {
+  margin-bottom: 5px;
+  font-weight: bold;
+}

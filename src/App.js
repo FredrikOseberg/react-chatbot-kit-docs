@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import ChatBot from "react-chatbot-kit";
+import { ConditionallyRender } from "react-util-kit";
+import Gist from "react-gist";
 
 import GradientBackground from "./components/GradientBackground/GradientBackground";
+import ConfigSection from "./components/pagesections/ConfigSection/ConfigSection";
+import MessageParserSection from "./components/pagesections/MessageParserSection/MessageParserSection";
+import ActionProviderSection from "./components/pagesections/ActionProviderSection/ActionProviderSection";
+import WidgetSection from "./components/pagesections/WidgetSection/WidgetSection";
+import ExamplesSection from "./components/pagesections/ExamplesSection/ExamplesSection";
+
 import { ReactComponent as Logo } from "./assets/icons/logo.svg";
+import { ReactComponent as ButtonIcon } from "./assets/icons/robot.svg";
 
 import config from "./configs/chatbotConfig";
 import MessageParser from "./chatbot/MessageParser";
@@ -11,19 +20,50 @@ import ActionProvider from "./chatbot/ActionProvider";
 import "./App.css";
 
 function App() {
+  const [showChatbot, toggleChatbot] = useState(true);
+
   return (
     <div className="App">
       <GradientBackground>
         <Logo style={{ paddingTop: "40px", height: "150px", width: "150px" }} />
-        <h1>React-chatbot-kit</h1>
+        <h1 class="app-header">React-chatbot-kit</h1>
         <div className="app-chatbot-container">
-          <ChatBot
-            config={config}
-            MessageParser={MessageParser}
-            ActionProvider={ActionProvider}
+          <ConditionallyRender
+            ifTrue={showChatbot}
+            show={
+              <ChatBot
+                config={config}
+                MessageParser={MessageParser}
+                ActionProvider={ActionProvider}
+              />
+            }
           />
         </div>
+
+        <button
+          className="app-chatbot-button"
+          onClick={() => toggleChatbot((prev) => !prev)}
+        >
+          <ButtonIcon className="app-chatbot-button-icon" />
+        </button>
+
+        <div className="app-overview">
+          <h2 className="app-header">Overview</h2>
+          <p className="app-paragraph">
+            The chatbot works by importing it and giving it a messageparser, a
+            config and an actionprovider. Scroll on to view more information
+            about each part. Or ask the bot.
+          </p>
+          <div className="app-overview-gist-container">
+            <Gist id="21ad31cad1298ead0115719cce8587f0" />
+          </div>
+        </div>
       </GradientBackground>
+      <ConfigSection />
+      <MessageParserSection />
+      <ActionProviderSection />
+      <WidgetSection />
+      <ExamplesSection />
     </div>
   );
 }

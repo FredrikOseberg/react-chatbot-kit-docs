@@ -2,34 +2,25 @@ import React, { useEffect } from "react";
 import { ConditionallyRender } from "react-util-kit";
 import Gist from "react-gist";
 
-import GistContainer from "../../GistContainer/GistContainer";
-
 import styles from "./WidgetDocs.module.css";
 import InformationBox from "../../InformationBox/InformationBox";
 
-const WidgetDocs = ({ gist, infoBox, setState }) => {
+const WidgetDocs = ({ infoBox, setState }) => {
   useEffect(() => {
     setState((state) => ({
       ...state,
-      gist: "widget",
       infoBox: "widget",
     }));
   }, [setState]);
 
-  const showWidgetGist = gist === "widget";
   const showWidgetInfoBox = infoBox === "widget";
 
   return (
     <div>
       <ConditionallyRender
-        ifTrue={showWidgetGist}
-        show={<GistContainer gistId="534e5d9eddffb29aad700afa13bda79f" />}
-      />
-
-      <ConditionallyRender
         ifTrue={showWidgetInfoBox}
         show={
-          <InformationBox>
+          <InformationBox setState={setState}>
             <p className={styles.infoBoxParagraph}>
               To use your own components in the chatbot, first you need to
               define it in the "widget" section of the config file:

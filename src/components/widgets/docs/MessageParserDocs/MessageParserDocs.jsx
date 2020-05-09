@@ -2,23 +2,19 @@ import React, { useEffect } from "react";
 import { FadeIn } from "react-anim-kit";
 import { ConditionallyRender } from "react-util-kit";
 
-import GistContainer from "../../GistContainer/GistContainer";
-
 import { ReactComponent as MessageParserOverview } from "../../../../assets/img/message-parser-overview.svg";
 
 import styles from "./MessageParserDocs.module.css";
 import InformationBox from "../../InformationBox/InformationBox";
 
-const MessageParserDocs = ({ gist, infoBox, setState }) => {
+const MessageParserDocs = ({ infoBox, setState }) => {
   useEffect(() => {
     setState((state) => ({
       ...state,
-      gist: "messageParser",
       infoBox: "messageParser",
     }));
   }, [setState]);
 
-  const showMessageParserGist = gist === "messageParser";
   const showMessageParserInfoBox = infoBox === "messageParser";
 
   return (
@@ -28,14 +24,9 @@ const MessageParserDocs = ({ gist, infoBox, setState }) => {
       </FadeIn>
 
       <ConditionallyRender
-        ifTrue={showMessageParserGist}
-        show={<GistContainer gistId="161bbcc7220ded5de7a1fce834d7fe99" />}
-      />
-
-      <ConditionallyRender
         ifTrue={showMessageParserInfoBox}
         show={
-          <InformationBox>
+          <InformationBox setState={setState}>
             <p className={styles.infoBoxParagraph}>
               You have to write your own messageparser. The beauty of this is
               that you have full control over how you want to parse messages

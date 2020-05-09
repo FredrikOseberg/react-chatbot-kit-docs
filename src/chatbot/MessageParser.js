@@ -12,7 +12,7 @@ class MessageParser {
       lowerCase.includes("parser") ||
       lowerCase.includes("message parser")
     ) {
-      return this.actionProvider.handleMessageParser();
+      return this.actionProvider.handleMessageParserDocs();
     }
 
     if (lowerCase.includes("action") || lowerCase.includes("actionprovider")) {
