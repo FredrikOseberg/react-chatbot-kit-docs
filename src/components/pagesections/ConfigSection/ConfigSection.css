@@ -49,13 +49,18 @@
   top: 5px;
 }
 
-.app-gists-link {
-  background-color: #53a88b;
-  color: #fff;
-  padding: 10px;
-  border-radius: 25px;
-  text-decoration: none;
-  width: 250px;
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
+@media (max-width: 1000px) {
+  .app-config-section {
+    flex-direction: column;
+  }
+
+  .app-config-section-gist-container {
+    width: auto;
+    padding: 20px;
+  }
+
+  .app-config-section-docs-container {
+    width: auto;
+    padding: 20px;
+  }
 }

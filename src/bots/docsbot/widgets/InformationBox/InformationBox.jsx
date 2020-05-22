@@ -2,8 +2,8 @@ import React from "react";
 
 import styles from "./InformationBox.module.css";
 
-import { ReactComponent as LightBulb } from "../../../assets/icons/lightbulb-on.svg";
-import { ReactComponent as Cross } from "../../../assets/icons/times-circle.svg";
+import { ReactComponent as LightBulb } from "../../../../assets/icons/lightbulb-on.svg";
+import { ReactComponent as Cross } from "../../../../assets/icons/times-circle.svg";
 
 const InformationBox = ({ children, setState }) => {
   return (

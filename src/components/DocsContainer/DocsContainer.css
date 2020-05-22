@@ -14,3 +14,9 @@
   font-size: 1.4rem;
   color: #1d1d1d;
 }
+
+@media (max-width: 450px) {
+  .app-docs-container {
+    width: auto;
+  }
+}

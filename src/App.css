@@ -28,6 +28,7 @@ li {
   border: none;
   position: fixed;
   bottom: 15px;
+  z-index: 9999;
   right: 40px;
 }
 
@@ -60,9 +61,13 @@ li {
   background-color: #53a88b;
   color: #fff;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 3px;
   text-decoration: none;
   width: 250px;
   font-size: 1.1rem;
   margin: 0.5rem 0;
+}
+
+.gist {
+  max-width: 100%;
 }

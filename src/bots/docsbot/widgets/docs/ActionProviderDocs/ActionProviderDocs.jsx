@@ -3,12 +3,12 @@ import { FadeIn } from "react-anim-kit";
 import { ConditionallyRender } from "react-util-kit";
 import Gist from "react-gist";
 
-import { ReactComponent as ActionProviderOverview } from "../../../../assets/img/actionprovider-overview.svg";
+import { ReactComponent as ActionProviderOverview } from "../../../../../assets/img/actionprovider-overview.svg";
 
 import styles from "./ActionProviderDocs.module.css";
 import InformationBox from "../../InformationBox/InformationBox";
 
-const ActionProviderDocs = ({ gist, infoBox, setState }) => {
+const ActionProviderDocs = ({ infoBox, setState }) => {
   useEffect(() => {
     setState((state) => ({
       ...state,

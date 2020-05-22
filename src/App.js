@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ChatBot from "react-chatbot-kit";
+import Chatbot from "react-chatbot-kit";
 import { ConditionallyRender } from "react-util-kit";
 import Gist from "react-gist";
 
@@ -13,9 +13,9 @@ import ExamplesSection from "./components/pagesections/ExamplesSection/ExamplesS
 import { ReactComponent as Logo } from "./assets/icons/logo.svg";
 import { ReactComponent as ButtonIcon } from "./assets/icons/robot.svg";
 
-import config from "./configs/chatbotConfig";
-import MessageParser from "./chatbot/MessageParser";
-import ActionProvider from "./chatbot/ActionProvider";
+import config from "./bots/docsbot/config";
+import MessageParser from "./bots/docsbot/MessageParser";
+import ActionProvider from "./bots/docsbot/ActionProvider";
 
 import "./App.css";
 
@@ -26,12 +26,12 @@ function App() {
     <div className="App">
       <GradientBackground>
         <Logo style={{ paddingTop: "40px", height: "150px", width: "150px" }} />
-        <h1 class="app-header">React-chatbot-kit</h1>
+        <h1 className="app-header">React-chatbot-kit</h1>
         <div className="app-chatbot-container">
           <ConditionallyRender
             ifTrue={showChatbot}
             show={
-              <ChatBot
+              <Chatbot
                 config={config}
                 MessageParser={MessageParser}
                 ActionProvider={ActionProvider}

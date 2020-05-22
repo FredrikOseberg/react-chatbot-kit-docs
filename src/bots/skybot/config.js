@@ -18,16 +18,11 @@ const config = {
   botName: botName,
   lang: "en",
   initialMessages: [
-    createChatBotMessage(`Hi I'm ${botName}.`, {
-      loading: true,
-      terminateLoading: true,
-    }),
+    createChatBotMessage(`Hi I'm ${botName}.`),
     createChatBotMessage(
       "First things first, which airport are you looking for information from?",
       {
         widget: "airportSelector",
-        loading: true,
-        terminateLoading: true,
         delay: 500,
       }
     ),

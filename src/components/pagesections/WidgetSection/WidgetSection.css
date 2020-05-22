@@ -47,3 +47,19 @@
   left: -25px;
   top: 5px;
 }
+
+@media (max-width: 1000px) {
+  .app-widget-section {
+    flex-direction: column;
+  }
+
+  .app-widget-section-gist-container {
+    width: auto;
+    padding: 20px;
+  }
+
+  .app-widget-section-docs-container {
+    width: auto;
+    padding: 20px;
+  }
+}

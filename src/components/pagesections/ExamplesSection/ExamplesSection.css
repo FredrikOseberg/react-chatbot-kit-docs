@@ -47,3 +47,25 @@
   height: 30px;
   margin-right: 8px;
 }
+
+@media (max-width: 600px) {
+  .app-examples-docsbot-container {
+    flex-direction: column;
+  }
+
+  .app-examples-skybot-container {
+    flex-direction: column-reverse;
+  }
+
+  .app-examples-docsbot-description,
+  .app-examples-skybot-description {
+    width: 100%;
+  }
+
+  .app-examples-docsbot-bot-container,
+  .app-examples-skybot-bot-container {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+  }
+}

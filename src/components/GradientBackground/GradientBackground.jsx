@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from "./GradientBackground.module.css";
+import "./GradientBackground.css";
 
 const GradientBackground = (props) => {
-  return <div className={styles.gradient}>{props.children}</div>;
+  return <div className="app-gradient">{props.children}</div>;
 };
 
 export default GradientBackground;

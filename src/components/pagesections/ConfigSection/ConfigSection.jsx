@@ -60,12 +60,12 @@ const ConfigSection = () => {
             </ul>
           </DocsContainer>
           <a
-            href="/"
+            href="https://gist.github.com/FredrikOseberg/87795296efb67fe76fa05fc839d22e25"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
             className="app-gists-link"
           >
-            Go to gist
+            View all configurable properties
           </a>
         </div>
       </div>

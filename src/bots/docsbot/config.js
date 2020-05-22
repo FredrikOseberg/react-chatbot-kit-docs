@@ -1,11 +1,11 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-import Overview from "../components/widgets/Overview/Overview";
-import MessageParserDocs from "../components/widgets/docs/MessageParserDocs/MessageParserDocs";
-import ActionProviderDocs from "../components/widgets/docs/ActionProviderDocs/ActionProviderDocs";
-import Config from "../components/widgets/docs/Config/Config";
-import WidgetDocs from "../components/widgets/docs/WidgetDocs/WidgetDocs";
+import Overview from "./widgets/Overview/Overview";
+import MessageParserDocs from "./widgets/docs/MessageParserDocs/MessageParserDocs";
+import ActionProviderDocs from "./widgets/docs/ActionProviderDocs/ActionProviderDocs";
+import Config from "./widgets/docs/Config/Config";
+import WidgetDocs from "./widgets/docs/WidgetDocs/WidgetDocs";
 
 const botName = "DocsBot";
 

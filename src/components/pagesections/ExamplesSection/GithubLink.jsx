@@ -3,7 +3,6 @@ import React from "react";
 import { ReactComponent as GithubIcon } from "../../../assets/icons/github.svg";
 
 const GithubLink = ({ link, linkText }) => {
-  console.log(link, linkText);
   return (
     <a
       href={link}

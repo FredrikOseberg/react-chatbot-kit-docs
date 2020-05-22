@@ -31,14 +31,6 @@ const FlightList = ({ flightType, selectedAirport, scrollIntoView }) => {
   const flightSlice = flights.slice(0, 5);
   const departure = type === "departure";
 
-  if (flightSlice.length === 0) {
-    return (
-      <div className="flight-list-error">
-        Sorry. Could not find any flights scheduled for today.
-      </div>
-    );
-  }
-
   return (
     <div className="flight-list-container">
       <div className="flight-header-container">

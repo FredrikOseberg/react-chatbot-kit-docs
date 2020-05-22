@@ -1,7 +1,7 @@
 import React from "react";
 import { FadeIn } from "react-anim-kit";
 
-import { ReactComponent as OverviewSVG } from "../../../assets/img/bot-overview.svg";
+import { ReactComponent as OverviewSVG } from "../../../../assets/img/bot-overview.svg";
 
 import styles from "./Overview.module.css";
 import GeneralOptions from "../options/GeneralOptions/GeneralOptions";

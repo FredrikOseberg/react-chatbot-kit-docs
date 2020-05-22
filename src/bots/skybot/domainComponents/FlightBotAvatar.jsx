@@ -4,9 +4,9 @@ import { ReactComponent as FlightIcon } from "../icons/plane-alt.svg";
 
 const FlightBotAvatar = () => {
   return (
-    <div className="chat-bot-avatar">
-      <div className="chat-bot-avatar-container">
-        <FlightIcon className="chat-bot-avatar-icon" />
+    <div className="react-chatbot-kit-chat-bot-avatar">
+      <div className="react-chatbot-kit-chat-bot-avatar-container">
+        <FlightIcon className="react-chatbot-kit-chat-bot-avatar-icon" />
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
-import { ChatBot } from "react-chatbot-kit";
+import { Chatbot } from "react-chatbot-kit";
 
 import GithubLink from "./GithubLink";
 
-import docsbotConfig from "../../../configs/chatbotConfig";
-import docsbotMessageParser from "../../../chatbot/MessageParser";
-import docsbotActionProvider from "../../../chatbot/ActionProvider";
+import docsbotConfig from "../../../bots/docsbot/config";
+import docsbotMessageParser from "../../../bots/docsbot/MessageParser";
+import docsbotActionProvider from "../../../bots/docsbot/ActionProvider";
 
 import skybotConfig from "../../../bots/skybot/config";
 import skybotMessageParser from "../../../bots/skybot/MessageParser";
@@ -30,7 +30,7 @@ const ExamplesSection = () => {
           </div>
           <div className="app-examples-docsbot">
             <div className="app-examples-docsbot-bot-container">
-              <ChatBot
+              <Chatbot
                 config={docsbotConfig}
                 MessageParser={docsbotMessageParser}
                 ActionProvider={docsbotActionProvider}
@@ -44,7 +44,7 @@ const ExamplesSection = () => {
         <div className="app-examples-skybot-container">
           <div className="app-examples-skybot">
             <div className="app-examples-skybot-bot-container">
-              <ChatBot
+              <Chatbot
                 config={skybotConfig}
                 MessageParser={skybotMessageParser}
                 ActionProvider={skybotActionProvider}
@@ -57,9 +57,12 @@ const ExamplesSection = () => {
             <p>
               Skybot is the bot that sparked the idea for this package. It was
               originally built as a proof of concept and exploration of cloud
-              services, but quickly morphed into something more.
+              services, but quickly morphed into this package.
             </p>
-            <GithubLink linkText="View source code" link="https://github.com" />
+            <GithubLink
+              linkText="View source code"
+              link="https://github.com/FredrikOseberg/react-chatbot-kit-docs/tree/master/src/bots/skybot"
+            />
           </div>
         </div>
       </div>
