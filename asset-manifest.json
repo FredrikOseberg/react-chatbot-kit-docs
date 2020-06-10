@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-chatbot-kit-docs/static/css/main.57898e34.chunk.css",
-    "main.js": "/react-chatbot-kit-docs/static/js/main.51eb9bfe.chunk.js",
-    "main.js.map": "/react-chatbot-kit-docs/static/js/main.51eb9bfe.chunk.js.map",
+    "main.css": "/react-chatbot-kit-docs/static/css/main.1d0db493.chunk.css",
+    "main.js": "/react-chatbot-kit-docs/static/js/main.c291b618.chunk.js",
+    "main.js.map": "/react-chatbot-kit-docs/static/js/main.c291b618.chunk.js.map",
     "runtime-main.js": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js",
     "runtime-main.js.map": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js.map",
-    "static/js/2.fdb7aed3.chunk.js": "/react-chatbot-kit-docs/static/js/2.fdb7aed3.chunk.js",
-    "static/js/2.fdb7aed3.chunk.js.map": "/react-chatbot-kit-docs/static/js/2.fdb7aed3.chunk.js.map",
+    "static/js/2.02d7da2b.chunk.js": "/react-chatbot-kit-docs/static/js/2.02d7da2b.chunk.js",
+    "static/js/2.02d7da2b.chunk.js.map": "/react-chatbot-kit-docs/static/js/2.02d7da2b.chunk.js.map",
     "index.html": "/react-chatbot-kit-docs/index.html",
-    "precache-manifest.de1e1d249704a03258c4e9bdbde5b1bf.js": "/react-chatbot-kit-docs/precache-manifest.de1e1d249704a03258c4e9bdbde5b1bf.js",
+    "precache-manifest.37afe78cc8531bf8dd01dcfe16b1cb21.js": "/react-chatbot-kit-docs/precache-manifest.37afe78cc8531bf8dd01dcfe16b1cb21.js",
     "service-worker.js": "/react-chatbot-kit-docs/service-worker.js",
-    "static/css/main.57898e34.chunk.css.map": "/react-chatbot-kit-docs/static/css/main.57898e34.chunk.css.map",
-    "static/js/2.fdb7aed3.chunk.js.LICENSE.txt": "/react-chatbot-kit-docs/static/js/2.fdb7aed3.chunk.js.LICENSE.txt",
+    "static/css/main.1d0db493.chunk.css.map": "/react-chatbot-kit-docs/static/css/main.1d0db493.chunk.css.map",
+    "static/js/2.02d7da2b.chunk.js.LICENSE.txt": "/react-chatbot-kit-docs/static/js/2.02d7da2b.chunk.js.LICENSE.txt",
     "static/media/actionprovider-overview.65f4c2ae.svg": "/react-chatbot-kit-docs/static/media/actionprovider-overview.65f4c2ae.svg",
     "static/media/arrows-h.65c108bd.svg": "/react-chatbot-kit-docs/static/media/arrows-h.65c108bd.svg",
     "static/media/bolt.57209c41.svg": "/react-chatbot-kit-docs/static/media/bolt.57209c41.svg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0559d56f.js",
-    "static/js/2.fdb7aed3.chunk.js",
-    "static/css/main.57898e34.chunk.css",
-    "static/js/main.51eb9bfe.chunk.js"
+    "static/js/2.02d7da2b.chunk.js",
+    "static/css/main.1d0db493.chunk.css",
+    "static/js/main.c291b618.chunk.js"
   ]
 }
