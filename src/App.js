@@ -57,6 +57,20 @@ function App() {
           <div className="app-overview-gist-container">
             <Gist id="21ad31cad1298ead0115719cce8587f0" />
           </div>
+
+          <h2 className="app-header">Quickstart</h2>
+          <p className="app-paragraph">
+            To get started quickly, check out the following gist to get a
+            scaffold for each part you need to provide to the chatbot.
+          </p>
+          <a
+            href="https://gist.github.com/FredrikOseberg/c1e8ec83ade6e89ca84882e33caf599c"
+            className="app-quickstart-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Go to gist
+          </a>
         </div>
       </GradientBackground>
       <ConfigSection />

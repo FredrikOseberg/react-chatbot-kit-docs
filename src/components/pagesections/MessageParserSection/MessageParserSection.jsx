@@ -42,7 +42,7 @@ const MessageParserSection = () => {
             href="/"
             target="_blank"
             rel="noopener norefferer"
-            className="app-gists-link"
+            className="app-gists-link-dark"
           >
             Go to gist
           </a>
