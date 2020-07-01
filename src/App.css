@@ -100,3 +100,9 @@ li {
 .gist {
   max-width: 100%;
 }
+
+@media (max-width: 600px) {
+  .app-chatbot-container {
+    transform: scale(0.9) translateY(26px);
+  }
+}

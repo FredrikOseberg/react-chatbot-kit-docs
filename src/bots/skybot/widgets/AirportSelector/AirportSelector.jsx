@@ -3,25 +3,47 @@ import { ConditionallyRender } from "react-util-kit";
 
 import "./AirportSelector.css";
 
-import { getReducedAirportObject } from "./airportSelectorUtils";
-
-import { getAirports } from "../../data/data";
-
-const AirportSelector = ({
-  selectedAirport,
-  setState,
-  updateKey,
-  actionProvider,
-}) => {
+const AirportSelector = ({ selectedAirport, setState, actionProvider }) => {
   const [displaySelector, toggleDisplaySelector] = useState(true);
   const [airports, setAirports] = useState([]);
 
+  const airportOptions = [
+    {
+      iata: "OSL",
+      nameCompact: "Oslo",
+    },
+    {
+      iata: "BOO",
+      nameCompact: "Bodo",
+    },
+    {
+      iata: "BGO",
+      nameCompact: "Bergen",
+    },
+    {
+      iata: "KRS",
+      nameCompact: "Kristiansand",
+    },
+    {
+      iata: "SVG",
+      nameCompact: "Stavanger",
+    },
+    {
+      iata: "TOS",
+      nameCompact: "Tromso",
+    },
+    {
+      iata: "TRD",
+      nameCompact: "Trondheim",
+    },
+    {
+      iata: "AES",
+      nameCompact: "Alesund",
+    },
+  ];
+
   useEffect(() => {
-    const fetchAirports = async () => {
-      const result = await getAirports();
-      setAirports(getReducedAirportObject(result));
-    };
-    fetchAirports();
+    setAirports(airportOptions);
   }, []);
 
   const handleSubmit = (e) => {
