@@ -42,30 +42,24 @@ const config = {
       widgetName: "airportSelector",
       widgetFunc: (props) => <AirportSelector {...props} />,
       mapStateToProps: ["messages", "selectedAirport", "airports"],
-      props: [],
     },
     {
       widgetName: "options",
       widgetFunc: (props) => <GeneralOptions {...props} />,
-      props: [],
-      mapStateToProps: [],
     },
     {
       widgetName: "flightSelector",
       widgetFunc: (props) => <FlightsSelector {...props} />,
-      props: [],
       mapStateToProps: ["selectedAirport"],
     },
     {
       widgetName: "flightList",
       widgetFunc: (props) => <FlightList {...props} />,
-      props: [],
       mapStateToProps: ["flightType", "selectedAirport"],
     },
     {
       widgetName: "singleFlight",
       widgetFunc: (props) => <SingleFlight {...props} />,
-      props: [],
       mapStateToProps: [
         "selectedFlightId",
         "selectedAirport",
@@ -75,19 +69,15 @@ const config = {
     {
       widgetName: "parkingOptions",
       widgetFunc: (props) => <ParkingOptions {...props} />,
-      props: [],
-      mapStateToProps: [],
     },
     {
       widgetName: "bookParkingLink",
       widgetFunc: (props) => <BookParkingLink {...props} />,
-      props: [],
       mapStateToProps: ["selectedAirport"],
     },
     {
       widgetName: "manageParkingLink",
       widgetFunc: (props) => <ManageParkingLink {...props} />,
-      props: [],
       mapStateToProps: ["selectedAirport"],
     },
     {

@@ -33,8 +33,8 @@ function App() {
             show={
               <Chatbot
                 config={config}
-                MessageParser={MessageParser}
-                ActionProvider={ActionProvider}
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
               />
             }
           />

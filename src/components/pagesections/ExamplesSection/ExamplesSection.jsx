@@ -32,8 +32,8 @@ const ExamplesSection = () => {
             <div className="app-examples-docsbot-bot-container">
               <Chatbot
                 config={docsbotConfig}
-                MessageParser={docsbotMessageParser}
-                ActionProvider={docsbotActionProvider}
+                messageParser={docsbotMessageParser}
+                actionProvider={docsbotActionProvider}
               />
             </div>
           </div>
@@ -46,8 +46,8 @@ const ExamplesSection = () => {
             <div className="app-examples-skybot-bot-container">
               <Chatbot
                 config={skybotConfig}
-                MessageParser={skybotMessageParser}
-                ActionProvider={skybotActionProvider}
+                messageParser={skybotMessageParser}
+                actionProvider={skybotActionProvider}
               />
             </div>
           </div>
