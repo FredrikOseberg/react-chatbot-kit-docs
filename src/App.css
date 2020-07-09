@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.app-npm-install {
+  background: #286f65;
+  padding: 8px;
+  border-radius: 3px;
+  color: #fff;
+  width: 250px;
+  margin: 0 auto;
+}
+
 p,
 li {
   line-height: 1.5;

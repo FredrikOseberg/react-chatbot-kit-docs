@@ -27,6 +27,7 @@ function App() {
       <GradientBackground>
         <Logo style={{ paddingTop: "40px", height: "150px", width: "150px" }} />
         <h1 className="app-header">React-chatbot-kit</h1>
+        <div className="app-npm-install">npm install react-chatbot-kit</div>
         <div className="app-chatbot-container">
           <ConditionallyRender
             ifTrue={showChatbot}
