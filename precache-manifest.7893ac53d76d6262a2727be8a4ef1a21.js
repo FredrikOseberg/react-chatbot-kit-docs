@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1a2d457ce3382ee6e568910ba06410e",
+    "revision": "f85a297f02b065c6a696bdc9d487b787",
     "url": "/react-chatbot-kit-docs/index.html"
   },
   {
-    "revision": "c2ddf3c7d04dfeedd015",
-    "url": "/react-chatbot-kit-docs/static/css/main.6535be85.chunk.css"
+    "revision": "44befd6ea57cd2fd03c5",
+    "url": "/react-chatbot-kit-docs/static/css/main.4fced8e3.chunk.css"
   },
   {
     "revision": "264dae64f1651a04ecda",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-chatbot-kit-docs/static/js/2.913eb9a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2ddf3c7d04dfeedd015",
-    "url": "/react-chatbot-kit-docs/static/js/main.710f08b6.chunk.js"
+    "revision": "44befd6ea57cd2fd03c5",
+    "url": "/react-chatbot-kit-docs/static/js/main.9abf5b8a.chunk.js"
   },
   {
     "revision": "bc568f2d01f894063539",
