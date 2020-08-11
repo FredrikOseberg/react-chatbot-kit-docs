@@ -39,7 +39,7 @@ const MessageParserSection = () => {
             </p>
           </DocsContainer>
           <a
-            href="/"
+            href="https://gist.github.com/FredrikOseberg/161bbcc7220ded5de7a1fce834d7fe99#file-messageparser-js"
             target="_blank"
             rel="noopener norefferer"
             className="app-gists-link-dark"

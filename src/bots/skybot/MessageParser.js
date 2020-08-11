@@ -42,7 +42,7 @@ class MessageParser {
     return this.actionProvider.handleOptions({ withAvatar: true });
   }
 
-  containsFlightId = message => {
+  containsFlightId = (message) => {
     const regexp = /[A-Z]{2,}[0-9]{2,}/gim;
     return message.match(regexp);
   };
