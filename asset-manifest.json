@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-chatbot-kit-docs/static/css/main.042038aa.chunk.css",
-    "main.js": "/react-chatbot-kit-docs/static/js/main.9abf5b8a.chunk.js",
-    "main.js.map": "/react-chatbot-kit-docs/static/js/main.9abf5b8a.chunk.js.map",
+    "main.js": "/react-chatbot-kit-docs/static/js/main.9e74b82b.chunk.js",
+    "main.js.map": "/react-chatbot-kit-docs/static/js/main.9e74b82b.chunk.js.map",
     "runtime-main.js": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js",
     "runtime-main.js.map": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js.map",
     "static/js/2.913eb9a6.chunk.js": "/react-chatbot-kit-docs/static/js/2.913eb9a6.chunk.js",
     "static/js/2.913eb9a6.chunk.js.map": "/react-chatbot-kit-docs/static/js/2.913eb9a6.chunk.js.map",
     "index.html": "/react-chatbot-kit-docs/index.html",
-    "precache-manifest.1860111622974f54d0c1dc3d12a71449.js": "/react-chatbot-kit-docs/precache-manifest.1860111622974f54d0c1dc3d12a71449.js",
+    "precache-manifest.9b0af0afbe946714a0b833e1b6c02006.js": "/react-chatbot-kit-docs/precache-manifest.9b0af0afbe946714a0b833e1b6c02006.js",
     "service-worker.js": "/react-chatbot-kit-docs/service-worker.js",
     "static/css/main.042038aa.chunk.css.map": "/react-chatbot-kit-docs/static/css/main.042038aa.chunk.css.map",
     "static/js/2.913eb9a6.chunk.js.LICENSE.txt": "/react-chatbot-kit-docs/static/js/2.913eb9a6.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.0559d56f.js",
     "static/js/2.913eb9a6.chunk.js",
     "static/css/main.042038aa.chunk.css",
-    "static/js/main.9abf5b8a.chunk.js"
+    "static/js/main.9e74b82b.chunk.js"
   ]
 }
