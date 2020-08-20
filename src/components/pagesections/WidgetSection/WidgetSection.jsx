@@ -75,7 +75,7 @@ const WidgetSection = () => {
           <a
             href="https://gist.github.com/FredrikOseberg/7fad0e5c1458559c544de6f0dd41e602#file-widget"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
             className="app-gists-link-dark"
           >
             Go to gist

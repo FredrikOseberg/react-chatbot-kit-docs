@@ -15,7 +15,7 @@ import "./ExamplesSection.css";
 
 const ExamplesSection = () => {
   return (
-    <div className="app-examples-section">
+    <div className="app-examples-section" id="examples">
       <div className="app-examples-docsbot">
         <div className="app-examples-docsbot-container">
           <div className="app-examples-docsbot-description">

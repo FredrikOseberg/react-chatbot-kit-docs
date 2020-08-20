@@ -41,7 +41,7 @@ const ActionProviderSection = () => {
           <a
             href="https://gist.github.com/FredrikOseberg/9c994790c6dd76f3d1d9dffac59ef2bb#file-actionprovider-js"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
             className="app-gists-link"
           >
             Go to gist

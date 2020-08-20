@@ -9,6 +9,8 @@ import MessageParserSection from "./components/pagesections/MessageParserSection
 import ActionProviderSection from "./components/pagesections/ActionProviderSection/ActionProviderSection";
 import WidgetSection from "./components/pagesections/WidgetSection/WidgetSection";
 import ExamplesSection from "./components/pagesections/ExamplesSection/ExamplesSection";
+import TutorialSection from "./components/pagesections/TutorialSection/TutorialSection";
+import Menu from "./components/Menu/Menu";
 
 import { ReactComponent as Logo } from "./assets/icons/logo.svg";
 import { ReactComponent as ButtonIcon } from "./assets/icons/robot.svg";
@@ -25,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <GradientBackground>
+        <Menu />
         <Logo style={{ paddingTop: "40px", height: "150px", width: "150px" }} />
         <h1 className="app-header">React-chatbot-kit</h1>
         <div className="app-npm-install">npm install react-chatbot-kit</div>
@@ -78,6 +81,7 @@ function App() {
       <MessageParserSection />
       <ActionProviderSection />
       <WidgetSection />
+      <TutorialSection />
       <ExamplesSection />
     </div>
   );
