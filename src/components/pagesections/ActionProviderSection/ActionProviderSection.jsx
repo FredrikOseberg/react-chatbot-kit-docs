@@ -23,8 +23,8 @@ const ActionProviderSection = () => {
             <p>
               The actionprovider controls what kind of action that the chatbot
               is going to perform. The actionprovider is given the
-              createChatBotMessage function in the constructor, which you can
-              use to create a new response.
+              createChatBotMessage and createClientMessage functions in the
+              constructor, which you can use to create a new responses.
             </p>
           </DocsContainer>
 
@@ -35,6 +35,15 @@ const ActionProviderSection = () => {
               response, and defines whether or not you want to render any custom
               components (widgets) with the response.
               <Gist id="2f0855a6fe8908bddc9f03db31d5caa4" />
+            </p>
+          </DocsContainer>
+
+          <DocsContainer title="createClientMessage">
+            <p>
+              The createClientMessage is a function you can use inside the
+              actionprovider in order to simulate a user message. It takes only
+              a message parameter as input.
+              <Gist id="c99040d422b9786c244d7c15b24d3672" />
             </p>
           </DocsContainer>
 

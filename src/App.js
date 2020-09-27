@@ -9,6 +9,7 @@ import MessageParserSection from "./components/pagesections/MessageParserSection
 import ActionProviderSection from "./components/pagesections/ActionProviderSection/ActionProviderSection";
 import WidgetSection from "./components/pagesections/WidgetSection/WidgetSection";
 import ExamplesSection from "./components/pagesections/ExamplesSection/ExamplesSection";
+import SaveDialogueSection from "./components/pagesections/SaveDialogueSection/SaveDialogueSection";
 import TutorialSection from "./components/pagesections/TutorialSection/TutorialSection";
 import Menu from "./components/Menu/Menu";
 
@@ -81,6 +82,7 @@ function App() {
       <MessageParserSection />
       <ActionProviderSection />
       <WidgetSection />
+      <SaveDialogueSection />
       <TutorialSection />
       <ExamplesSection />
     </div>
