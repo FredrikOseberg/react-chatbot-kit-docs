@@ -1,0 +1,71 @@
+.appHeader {
+  color: #fff;
+  background-color: transparent;
+}
+
+.homeSection {
+  text-align: center;
+}
+
+.appNpmInstall {
+  background: #286f65;
+  padding: 8px;
+  border-radius: 3px;
+  color: #fff;
+  width: 250px;
+  margin: 30px auto;
+}
+
+.appOverview {
+  margin-top: '5rem';
+}
+
+.appOverviewGistContainer {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.appGistsLink {
+  background-color: #fff;
+  color: #6b8dee;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 250px;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.appParagraph {
+  color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.appQuickstartButton {
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 10px;
+
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+
+.appGistsLinkDark {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 250px;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  transition: background-color 0.4s ease;
+}
+
+.gist {
+  max-width: 100%;
+}

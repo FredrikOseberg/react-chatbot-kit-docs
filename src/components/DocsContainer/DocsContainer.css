@@ -1,0 +1,22 @@
+.app-docs-container {
+  padding: 25px;
+  background-color: #fff;
+  max-width: 400px;
+  width: 400px;
+  border-radius: 3px;
+  text-align: left;
+  margin: 0.8rem 0;
+}
+
+.app-docs-container-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #1d1d1d;
+}
+
+@media (max-width: 450px) {
+  .app-docs-container {
+    width: auto;
+  }
+}

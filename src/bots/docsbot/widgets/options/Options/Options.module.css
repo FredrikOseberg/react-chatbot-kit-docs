@@ -1,0 +1,15 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.option {
+  border-radius: 25px;
+  padding: 8px;
+  border: 1px solid #173e3f;
+  color: #1d1d1d;
+  font-size: 0.8rem;
+  margin: 4px 4px;
+  background: transparent;
+}

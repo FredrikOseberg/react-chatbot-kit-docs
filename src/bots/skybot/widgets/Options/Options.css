@@ -1,0 +1,22 @@
+.options {
+  padding-bottom: 15px;
+}
+
+.options-header {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option-item {
+  padding: 8px 15px;
+  border: 1px solid #2898ec;
+  border-radius: 25px;
+  color: #2898ec;
+  font-size: 0.9rem;
+  margin: 3px;
+}

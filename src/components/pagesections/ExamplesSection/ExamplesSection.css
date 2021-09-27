@@ -1,0 +1,71 @@
+.app-examples-docsbot {
+  background-color: rgb(24, 44, 57);
+  padding: 25px;
+}
+
+.app-examples-skybot {
+  background-color: #bb5151;
+  padding: 25px;
+}
+
+.app-examples-docsbot-container,
+.app-examples-skybot-container {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.app-examples-docsbot-description,
+.app-examples-skybot-description {
+  color: #fff;
+  text-align: left;
+  max-width: 400px;
+  width: 30%;
+}
+
+.app-examples-docsbot-bot-container,
+.app-examples-skybot-bot-container {
+  box-shadow: 5px 5px 13px rgba(91, 81, 81, 0.4);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.app-github-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+
+.app-github-link-icon {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+  .app-examples-docsbot-container {
+    flex-direction: column;
+  }
+
+  .app-examples-skybot-container {
+    flex-direction: column-reverse;
+  }
+
+  .app-examples-docsbot-description,
+  .app-examples-skybot-description {
+    width: 100%;
+  }
+
+  .app-examples-docsbot-bot-container,
+  .app-examples-skybot-bot-container {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+  }
+}

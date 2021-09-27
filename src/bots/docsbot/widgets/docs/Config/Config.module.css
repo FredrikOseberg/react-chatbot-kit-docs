@@ -1,0 +1,13 @@
+.configLink {
+  padding: 8px;
+  display: block;
+  margin: 15px auto;
+  width: 150px;
+  font-size: 0.9rem;
+  border: 1px solid rgb(55, 107, 126);
+  color: rgb(55, 107, 126);
+  background: transparent;
+  text-decoration: none;
+  border-radius: 3px;
+  text-align: center;
+}

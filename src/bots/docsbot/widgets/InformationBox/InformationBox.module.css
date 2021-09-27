@@ -1,0 +1,37 @@
+.informationBox {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 300px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 5px 5px 13px rgba(91, 81, 81, 0.4);
+}
+
+.closeMessageBoxIcon {
+  width: 20px;
+  height: 20px;
+  fill: red;
+}
+
+.informationBoxLogo {
+  width: 30px;
+  height: 30px;
+  fill: #56af8c;
+}
+
+.closeMessageBox {
+  position: absolute;
+  right: 10px;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 750px) {
+  .informationBox {
+    display: none;
+  }
+}

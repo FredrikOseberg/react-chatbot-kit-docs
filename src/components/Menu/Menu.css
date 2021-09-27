@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 8px;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="67px" viewBox="0 0 106 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <rect id="Rectangle" stroke="#376B7E" fill-rule="nonzero" x="0.5" y="0.5" width="39" height="14" rx="1"></rect>
+            <rect id="Rectangle" stroke="#376B7E" fill-rule="nonzero" x="42.5" y="0.5" width="21" height="14" rx="1"></rect>
+            <rect id="Rectangle" stroke="#376B7E" fill-rule="nonzero" x="66.5" y="0.5" width="39" height="14" rx="1"></rect>
+            <text id="MessageParser" fill="#386C7E" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400">
+                <tspan x="3" y="9">MessageParser</tspan>
+            </text>
+            <text id="Config" fill="#386C7E" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400">
+                <tspan x="45" y="9">Config</tspan>
+            </text>
+            <text id="ActionProvider" fill="#386C7E" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400">
+                <tspan x="69" y="9">ActionProvider</tspan>
+            </text>
+            <path d="M20,15 L20,32.5" id="Line-2" stroke="#376B7E" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M85,32.5 L20,32.5" id="Line-2" stroke="#376B7E" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M52,15 L52,32.5" id="Line-2" stroke="#376B7E" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M85,15 L85,32.5" id="Line-2" stroke="#376B7E" stroke-linecap="square" fill-rule="nonzero"></path>
+            <circle id="Oval" stroke="#376B7E" fill="#376B7E" fill-rule="nonzero" cx="52.5" cy="56.5" r="9.5"></circle>
+            <text id="Bot" fill="#FFFFFF" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400">
+                <tspan x="48" y="58">Bot</tspan>
+            </text>
+            <path d="M52,32.5 L52,46.5" id="Line-2" stroke="#376B7E" stroke-linecap="square" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
