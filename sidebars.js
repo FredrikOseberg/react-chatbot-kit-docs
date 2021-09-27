@@ -21,6 +21,7 @@ module.exports = {
         'advanced/chatbot-props',
         'advanced/custom-messages',
         'advanced/widgets',
+        'advanced/example-repositories',
       ],
     },
   ],
