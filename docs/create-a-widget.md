@@ -26,7 +26,7 @@ const DogPicture = () => {
 
   return (
     <div>
-      <img src={imageUrl} alt='image of a dog' />
+      <img src={imageUrl} alt='a dog' />
     </div>
   );
 };
