@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="110px" viewBox="0 0 62 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(0.000000, -94.000000)">
+            <g id="Group-12" transform="translate(0.000000, 94.000000)">
+                <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="7.5" y="0.5" width="42" height="12" rx="2"></rect>
+                <text id="MessageParser" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                    <tspan x="11" y="8">MessageParser</tspan>
+                </text>
+                <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="6.5" y="23.5" width="42" height="12" rx="2"></rect>
+                <text id="ActionProvider" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                    <tspan x="10" y="31">ActionProvider</tspan>
+                </text>
+                <text id="setState()" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                    <tspan x="15" y="75">setState()</tspan>
+                </text>
+                <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="0.5" y="46.5" width="60" height="12" rx="2"></rect>
+                <rect id="Rectangle-Copy" stroke="#386C7E" fill-rule="nonzero" x="1.5" y="67.5" width="52" height="12" rx="2"></rect>
+                <text id="createChatBotMessage" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="4" font-weight="400" fill="#585858">
+                    <tspan x="4" y="54">createChatBotMessage(“Hi”)</tspan>
+                </text>
+                <circle id="Oval" stroke="#376B7E" fill="#376B7E" fill-rule="nonzero" cx="25.5" cy="99.5" r="9.5"></circle>
+                <text id="Bot" fill="#FFFFFF" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400">
+                    <tspan x="21" y="101">Bot</tspan>
+                </text>
+                <g id="Group-11" transform="translate(26.000000, 36.000000)" fill-rule="nonzero">
+                    <path d="M0.5,0 L0.5,6.68181818" id="Line-7" stroke="#386C7E" stroke-linecap="square"></path>
+                    <path id="Line-8" d="M0.45,3.97777778 L0.45,3.3 L0.55,3.3 L0.55,3.97777778 L2.75,3.97777778 L0.5,8.97777778 L-1.75,3.97777778 L0.45,3.97777778 Z" fill="#386C7E"></path>
+                </g>
+                <g id="Group-11" transform="translate(26.000000, 58.000000)" fill-rule="nonzero">
+                    <path d="M0.5,0.5 L0.5,5.68181818" id="Line-7" stroke="#386C7E" stroke-linecap="square"></path>
+                    <path id="Line-8" d="M0.45,2.97777778 L0.45,2.3 L0.55,2.3 L0.55,2.97777778 L2.75,2.97777778 L0.5,7.97777778 L-1.75,2.97777778 L0.45,2.97777778 Z" fill="#386C7E"></path>
+                </g>
+                <g id="Group-11" transform="translate(25.000000, 80.000000)" fill-rule="nonzero">
+                    <path d="M0.5,0.5 L0.5,5.68181818" id="Line-7" stroke="#386C7E" stroke-linecap="square"></path>
+                    <path id="Line-8" d="M0.45,2.97777778 L0.45,2.3 L0.55,2.3 L0.55,2.97777778 L2.75,2.97777778 L0.5,7.97777778 L-1.75,2.97777778 L0.45,2.97777778 Z" fill="#386C7E"></path>
+                </g>
+                <g id="Group-11" transform="translate(39.000000, 99.500000) rotate(-90.000000) translate(-39.000000, -99.500000) translate(38.500000, 95.500000)" fill-rule="nonzero">
+                    <path d="M0.5,0.5 L0.5,5.68181818" id="Line-7" stroke="#386C7E" stroke-linecap="square"></path>
+                    <path id="Line-8" d="M0.45,2.97777778 L0.45,2.3 L0.55,2.3 L0.55,2.97777778 L2.75,2.97777778 L0.5,7.97777778 L-1.75,2.97777778 L0.45,2.97777778 Z" fill="#386C7E"></path>
+                </g>
+                <g id="Group-11" transform="translate(26.000000, 13.000000)" fill-rule="nonzero">
+                    <path d="M0.5,0 L0.5,6.68181818" id="Line-7" stroke="#386C7E" stroke-linecap="square"></path>
+                    <path id="Line-8" d="M0.45,3.97777778 L0.45,3.3 L0.55,3.3 L0.55,3.97777778 L2.75,3.97777778 L0.5,8.97777778 L-1.75,3.97777778 L0.45,3.97777778 Z" fill="#386C7E"></path>
+                </g>
+                <rect id="Rectangle" fill="#F1F1F1" fill-rule="nonzero" x="43" y="92" width="19" height="15" rx="3"></rect>
+                <text id="Hi" font-family="NeutrifPro-Medium, Neutrif Pro" font-size="5" font-weight="400" fill="#585858">
+                    <tspan x="46" y="101">Hi</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

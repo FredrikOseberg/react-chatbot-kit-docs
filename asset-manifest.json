@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-chatbot-kit-docs/static/css/main.82971f05.chunk.css",
+    "main.js": "/react-chatbot-kit-docs/static/js/main.a32453f6.chunk.js",
+    "main.js.map": "/react-chatbot-kit-docs/static/js/main.a32453f6.chunk.js.map",
+    "runtime-main.js": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js",
+    "runtime-main.js.map": "/react-chatbot-kit-docs/static/js/runtime-main.0559d56f.js.map",
+    "static/js/2.0601c420.chunk.js": "/react-chatbot-kit-docs/static/js/2.0601c420.chunk.js",
+    "static/js/2.0601c420.chunk.js.map": "/react-chatbot-kit-docs/static/js/2.0601c420.chunk.js.map",
+    "index.html": "/react-chatbot-kit-docs/index.html",
+    "precache-manifest.224cd2725557f9da605e2b2eb042a7ac.js": "/react-chatbot-kit-docs/precache-manifest.224cd2725557f9da605e2b2eb042a7ac.js",
+    "service-worker.js": "/react-chatbot-kit-docs/service-worker.js",
+    "static/css/main.82971f05.chunk.css.map": "/react-chatbot-kit-docs/static/css/main.82971f05.chunk.css.map",
+    "static/js/2.0601c420.chunk.js.LICENSE.txt": "/react-chatbot-kit-docs/static/js/2.0601c420.chunk.js.LICENSE.txt",
+    "static/media/actionprovider-overview.65f4c2ae.svg": "/react-chatbot-kit-docs/static/media/actionprovider-overview.65f4c2ae.svg",
+    "static/media/arrows-h.65c108bd.svg": "/react-chatbot-kit-docs/static/media/arrows-h.65c108bd.svg",
+    "static/media/bolt.57209c41.svg": "/react-chatbot-kit-docs/static/media/bolt.57209c41.svg",
+    "static/media/bot-overview.b112f4cf.svg": "/react-chatbot-kit-docs/static/media/bot-overview.b112f4cf.svg",
+    "static/media/cogs.4073c905.svg": "/react-chatbot-kit-docs/static/media/cogs.4073c905.svg",
+    "static/media/comment-alt-dots.d1328be7.svg": "/react-chatbot-kit-docs/static/media/comment-alt-dots.d1328be7.svg",
+    "static/media/github.f5a069d2.svg": "/react-chatbot-kit-docs/static/media/github.f5a069d2.svg",
+    "static/media/lightbulb-on.e5967df6.svg": "/react-chatbot-kit-docs/static/media/lightbulb-on.e5967df6.svg",
+    "static/media/link.665a8aa5.svg": "/react-chatbot-kit-docs/static/media/link.665a8aa5.svg",
+    "static/media/logo.79bcdbec.svg": "/react-chatbot-kit-docs/static/media/logo.79bcdbec.svg",
+    "static/media/message-parser-overview.316d333f.svg": "/react-chatbot-kit-docs/static/media/message-parser-overview.316d333f.svg",
+    "static/media/plane-alt.fd0869cb.svg": "/react-chatbot-kit-docs/static/media/plane-alt.fd0869cb.svg",
+    "static/media/plane-arrival.fea65673.svg": "/react-chatbot-kit-docs/static/media/plane-arrival.fea65673.svg",
+    "static/media/plane-departure.63a64452.svg": "/react-chatbot-kit-docs/static/media/plane-departure.63a64452.svg",
+    "static/media/robot.410b80c5.svg": "/react-chatbot-kit-docs/static/media/robot.410b80c5.svg",
+    "static/media/times-circle.6832fc6d.svg": "/react-chatbot-kit-docs/static/media/times-circle.6832fc6d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0559d56f.js",
+    "static/js/2.0601c420.chunk.js",
+    "static/css/main.82971f05.chunk.css",
+    "static/js/main.a32453f6.chunk.js"
+  ]
+}
