@@ -3,7 +3,7 @@ module.exports = {
   title: 'React-chatbot-kit',
   tagline: 'The simple way to build chatbots',
   url: 'https://FredrikOseberg.github.io',
-  baseUrl: '/',
+  baseUrl: '/react-chatbot-kit-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -57,6 +57,9 @@ module.exports = {
       {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
         },
       },
     ],
