@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrck_docs=self.webpackChunkrck_docs||[]).push([[595],{319:function(e){e.exports=JSON.parse('{"permalink":"/react-chatbot-kit-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
