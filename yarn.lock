@@ -8001,10 +8001,10 @@ react-base16-styling@^0.6.0:
     lodash.flow "^3.3.0"
     pure-color "^1.2.0"
 
-react-chatbot-kit@2.1.0-beta.1:
-  version "2.1.0-beta.1"
-  resolved "https://registry.yarnpkg.com/react-chatbot-kit/-/react-chatbot-kit-2.1.0-beta.1.tgz#ceec44c5e0e259304023e82974e50e56adb0e11f"
-  integrity sha512-YtnqA8V31RnmUj/FmJOdVFWp6m/y12EgYCSVmR326XrtFqIrebCLn1Xo26iTp7JhXyYvoputBmCKZWdLVvS2ww==
+react-chatbot-kit@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-chatbot-kit/-/react-chatbot-kit-2.1.0.tgz#8abc98bd1aad46c8ca8b2ea2048096bb8e794ab0"
+  integrity sha512-ZE80gNaQ9WY4Wpi4thLMTVDKg1mjrZzBMaTvbm5WpILY5XdSyxfcHCjbHCfejIHdelDrC+GuJHoHzc80kd6DsQ==
   dependencies:
     classnames "^2.2.6"
     css-loader "^3.5.1"

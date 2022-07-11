@@ -46,58 +46,34 @@ const actionProv = new actionProvider(
 - createCustomMessage: function
 - rest parameters: array
 
-```js
-class ActionProvider {
-  // The action provider receives createChatBotMessage which you can use to define the bots response, and
-  // the setState function that allows for manipulating the bots internal state.
-  constructor(
-    createChatBotMessage,
-    setStateFunc,
-    createClientMessage,
-    stateRef,
-    createCustomMessage,
-    ...rest
-  ) {
-    this.createChatBotMessage = createChatBotMessage;
-    this.setState = setStateFunc;
-    this.createClientMessage = createClientMessage;
-    this.stateRef = stateRef;
-    this.createCustomMessage = createCustomMessage;
-  }
+```jsx
+export const ActionProvider = ({
+  createChatBotMessage,
+  setState,
+  children,
+}) => {
+  const handleHello = () => {
+    const botMessage = createChatBotMessage('Hello. Nice to meet you.');
 
-  handleMessageParser = () => {
-    const messages = this.createChatBotMessage(
-      'The message parser controls how the bot reads input and decides which action to invoke.',
-      { widget: 'messageParser', withAvatar: true }
-    );
-
-    this.addMessageToBotState(messages);
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
   };
 
-  handleDefault = () => {
-    const message = this.createChatBotMessage('How can I help?', {
-      withAvatar: true,
-    });
-
-    this.addMessageToBotState(message);
-  };
-
-  addMessageToBotState = (messages) => {
-    if (Array.isArray(messages)) {
-      this.setState((state) => ({
-        ...state,
-        messages: [...state.messages, ...messages],
-      }));
-    } else {
-      this.setState((state) => ({
-        ...state,
-        messages: [...state.messages, messages],
-      }));
-    }
-  };
-}
-
-export default ActionProvider;
+  // Put the handleHello function in the actions object to pass to the MessageParser
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          actions: {
+            handleHello,
+          },
+        });
+      })}
+    </div>
+  );
+};
 ```
 
 ## messageParser
@@ -108,31 +84,26 @@ export default ActionProvider;
 The messageparser receives the user input and decides which action to invoke from the action provider. It receives the action provider as the first argument, and a reference to the state as the second argument on initialization.
 
 ```js
-class MessageParser {
-  constructor(actionProvider, state) {
-    this.actionProvider = actionProvider;
-    // State represents the chatbot state and is passed
-    // in at initalization. You can use it to read chatbot state
-    // inside the messageParser
-    this.state = state;
-  }
+import React from 'react';
 
-  parse = (message) => {
-    const lowerCase = message.toLowerCase();
-
-    if (
-      lowerCase.includes('messageparser') ||
-      lowerCase.includes('parse') ||
-      lowerCase.includes('parser') ||
-      lowerCase.includes('message parser')
-    ) {
-      return this.actionProvider.handleMessageParser();
+export const MessageParser = ({ children, actions }) => {
+  const parse = (message) => {
+    if (message.includes('hello')) {
+      actions.handleHello();
     }
-    return this.actionProvider.handleDefault();
   };
-}
 
-export default MessageParser;
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          parse: parse,
+          actions,
+        });
+      })}
+    </div>
+  );
+};
 ```
 
 ## config
