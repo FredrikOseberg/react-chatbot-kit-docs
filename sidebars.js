@@ -1,3 +1,5 @@
+/** @format */
+
 module.exports = {
   docs: [
     {
@@ -9,6 +11,7 @@ module.exports = {
         'create-a-response',
         'configure-your-bot',
         'create-a-widget',
+        'message-functions',
       ],
     },
     {
@@ -22,6 +25,7 @@ module.exports = {
         'advanced/custom-messages',
         'advanced/widgets',
         'advanced/example-repositories',
+        'advanced/payloads',
       ],
     },
   ],

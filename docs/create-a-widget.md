@@ -2,6 +2,8 @@
 title: Create your first widget
 ---
 
+<!-- @format -->
+
 Widgets are custom components that make this package extremely flexible. Since widgets are just
 plain react components, only your imagination limits what you can build. In this guide we'll go ahead and implement our first widget.
 
@@ -57,27 +59,46 @@ const config = {
 After the registration, we can now use the widget when we create a new chatbot message in the actionprovider by specifying the "widget" key in the options object given as the second argument to createChatbotMessage.
 
 ```js
-class ActionProvider {
-  constructor(createChatbotMessage, setStateFunc, createClientMessage) {
-    this.createChatbotMessage = createChatbotMessage;
-    this.setState = setStateFunc;
-    this.createClientMessage = createClientMessage;
-  }
+import React from 'react';
 
-  handleDog() {
-    const message = this.createChatbotMessage(
+const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+  const handleHello = () => {
+    const botMessage = createChatBotMessage('Hello. Nice to meet you.');
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleDog = () => {
+    const botMessage = createChatBotMessage(
       "Here's a nice dog picture for you!",
       {
         widget: 'dogPicture',
       }
     );
 
-    this.setState((prev) => ({
+    setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
     }));
-  }
-}
+  };
+
+  // Put the handleHello and handleDog function in the actions object to pass to the MessageParser
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          actions: {
+            handleHello,
+            handleDog,
+          },
+        });
+      })}
+    </div>
+  );
+};
 
 export default ActionProvider;
 ```
@@ -87,23 +108,33 @@ export default ActionProvider;
 Finally, we need to create a rule that will trigger our new action and widget:
 
 ```js
-// in MessageParser.js
-class MessageParser {
-  constructor(actionProvider, state) {
-    this.actionProvider = actionProvider;
-    this.state = state;
-  }
+// in MessageParser.jsx
+import React from 'react';
 
-  parse(message) {
+const MessageParser = ({ children, actions }) => {
+  const parse = (message) => {
     if (message.includes('hello')) {
-      this.actionProvider.handleHello();
+      actions.handleHello();
     }
 
     if (message.includes('dog')) {
-      this.actionProvider.handleDog();
+      actions.handleDog();
     }
-  }
-}
+  };
+
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          parse: parse,
+          actions,
+        });
+      })}
+    </div>
+  );
+};
+
+export default MessageParser;
 ```
 
 ## Step 5: Test your new widget

@@ -2,6 +2,8 @@
 title: Getting Started
 ---
 
+<!-- @format -->
+
 ## Step 1: Install react-chatbot-kit
 
 ```shell
@@ -23,8 +25,8 @@ The chatbot requires three dependencies in order to function. Create a directory
 
 ```
 config.js
-ActionProvider.js
-MessageParser.js
+ActionProvider.jsx
+MessageParser.jsx
 ```
 
 Inside of config.js, put the following content:
@@ -42,13 +44,19 @@ export default config;
 Inside of ActionProvider.js, put the following content:
 
 ```js
-class ActionProvider {
-  constructor(createChatbotMessage, setStateFunc, createClientMessage) {
-    this.createChatbotMessage = createChatbotMessage;
-    this.setState = setStateFunc;
-    this.createClientMessage = createClientMessage;
-  }
-}
+import React from 'react';
+
+const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          actions: {},
+        });
+      })}
+    </div>
+  );
+};
 
 export default ActionProvider;
 ```
@@ -56,16 +64,26 @@ export default ActionProvider;
 Inside of MessageParser.js, put the following content:
 
 ```js
-class MessageParser {
-  constructor(actionProvider, state) {
-    this.actionProvider = actionProvider;
-    this.state = state;
-  }
+import React from 'react';
 
-  parse(message) {
+const MessageParser = ({ children, actions }) => {
+  const parse = (message) => {
     console.log(message);
-  }
-}
+  };
+
+  return (
+    <div>
+      {React.Children.map(children, (child) => {
+        return React.cloneElement(child, {
+          parse: parse,
+          actions: {},
+        });
+      })}
+    </div>
+  );
+};
+
+export default MessageParser;
 ```
 
 ## Step 4: Initialize the chatbot
